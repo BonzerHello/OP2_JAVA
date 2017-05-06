@@ -1,3 +1,4 @@
+/*
 package Kapitel_3.exercises.task2;
 
 
@@ -10,9 +11,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
+*/
 /**
  * Created by tilli_000 on 03.03.2017.
- */
+ *//*
+
 public class MovieReader {
 
     public static String ID = "id";
@@ -110,3 +113,4 @@ public class MovieReader {
         return map;
     }
 }
+*/
