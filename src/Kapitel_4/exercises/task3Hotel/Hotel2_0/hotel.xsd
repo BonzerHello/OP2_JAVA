@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- address xml without namespaces -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+
+
+    <!-- StarsType -->
+    <xsd:simpleType name="starsType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[*]{1,7}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- RoomType -->
+    <xsd:simpleType name="roomType">
+        <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="0"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+
+    <!--HotelType -->
+    <xsd:complexType name="hotelType">
+        <xsd:sequence>
+            <xsd:element name="single-room" type="roomType"></xsd:element>
+            <xsd:element name="double-room" type="roomType"></xsd:element>
+            <xsd:element name="suite" type="roomType"></xsd:element>
+            <xsd:element name="lounge" minOccurs="0" maxOccurs="1" fixed="" type="xsd:string"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="stars" default="***" type="starsType"/>
+    </xsd:complexType>
+
+
+    <!--Root Element -->
+    <xsd:element name="hotel" type="hotelType"/>
+</xsd:schema>

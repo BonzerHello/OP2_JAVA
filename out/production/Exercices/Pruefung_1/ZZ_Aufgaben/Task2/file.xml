@@ -1,0 +1,25 @@
+<xml version="1.0" encoding="UTF-8">
+<hibernate-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./file.xsd">
+    <!-- session-factory muss genau einmal vorhanden sein -->
+    <session-factory code="x3de">
+        <!-- Beliebig viele property - Elemente ( 1..n ) -->
+        <!-- Attribute name darf nur Buchstaben, Ziffern und die Zeichen . und  _ enthalten -->
+        <!-- Attribute optional darf nur Werte true oder false haben -->
+        <property name="hibernate.connection.driver_class" optional="yes">
+            org.hsqldb.jdbcDriver
+        </property>
+        <property name="hibernate.connection.url">
+            jdbc:hsqldb:data/test
+        </property>
+        <property name="hibernate.connection.username" optional="no">sa </property>
+        <property name="hibernate.connection.password" optional="no" />
+        <property name="transaction.factory_class">
+            org.hibernate.transaction.JDBCTranslationFactory
+        </property>
+        <!-- Optionales mapping - Element ( 0..1 ) -->
+        <mapping>
+            <param1>"hib/HibEvent.hbm.xml"</param1>
+            <param2>"HBMXML"</param2>
+        </mapping>
+    </session-factory>
+</hibernate-configuration>

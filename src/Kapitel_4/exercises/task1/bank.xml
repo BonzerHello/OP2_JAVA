@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"
+        standalone="no"?>
+<bankAccount >
+    <number></number>
+    <status></status>
+    <type></type>
+    <owner>
+        <firstName></firstName>
+        <lastName></lastName>
+        <address>
+            <street></street>
+            <nr></nr>
+            <plz></plz>
+            <city></city>
+            <country></country>
+        </address>
+    </owner>
+</bankAccount>

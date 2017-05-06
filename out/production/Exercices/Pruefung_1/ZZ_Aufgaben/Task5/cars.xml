@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<owner>
+    <first_name>Fred</first_name>
+    <last_name>Fredkowski</last_name>
+    <address>Bern, Waldbachstrasse 90</address>
+    <cars>
+        <car xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="electricCar">
+            <license>GR 89367</license>
+            <model>Electric Car 1</model>
+            <performance>235.6</performance>
+            <charging_level>1</charging_level>
+        </car>
+        <car xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dieselCar">
+            <license>NE 23454</license>
+            <model>Renault Van V8</model>
+            <performance>300.0</performance>
+            <dpm>189</dpm>
+        </car>
+        <car xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="gasolineCar">
+            <license>BE 345796</license>
+            <model>VW Polo</model>
+            <performance>234.0</performance>
+        </car>
+    </cars>
+</owner>

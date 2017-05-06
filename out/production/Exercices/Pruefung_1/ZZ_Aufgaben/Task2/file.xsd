@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:file="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+
+    <!-- Defining Simple Types -->
+    
+    <xsd:simpleType name="nameType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[a-zA-Z1-9._]*"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="optionalType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="yes"/>
+            <xsd:enumeration value="no"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- Property -->
+    <xsd:complexType name="property">
+        <xsd:attribute name="name" type="nameType"/>
+        <xsd:attribute name="optional" type="optionalType"/>
+    </xsd:complexType>
+
+    <!-- Mapping -->
+    <xsd:complexType name="mapping">
+        <xsd:all>
+            <xsd:element name="param1" type="xsd:string"/>
+            <xsd:element name="param2" type="xsd:string"/>
+        </xsd:all>
+    </xsd:complexType>
+
+    <!-- Session factory -->
+    <xsd:complexType name="session-factory" >
+        <xsd:all>
+            <xsd:element name="property" type="property" minOccurs="1"/>
+            <xsd:element name="mapping" type="mapping" maxOccurs="1"/>
+        </xsd:all>
+        <xsd:attribute name="code" type="xsd:string" />
+    </xsd:complexType>
+
+
+
+    <!-- Defining complex elements -->
+
+    <xsd:element name="hibernate-configuration">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="session-factory" type="file:session-factory" maxOccurs="1"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

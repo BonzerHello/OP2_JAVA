@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- address xml without namespaces -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+    
+    <!--Faxno Type-->
+    <xsd:simpleType name="faxNoType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{3}\s*\d{3}\s*\d{2}\s*\d{2}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- Priority Type Type-->
+    <xsd:simpleType name="priorityTypeType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="URGENT"/>
+            <xsd:enumeration value="NORMAL"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <!-- Priority Type-->
+    <xsd:complexType name="priorityType">
+        <xsd:attribute name="type" type="priorityTypeType"/>
+
+    </xsd:complexType>
+
+    <!-- formatType -->
+    <xsd:simpleType name="formatType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Letter"/>
+            <xsd:enumeration value="A4"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!--fromToType -->
+    <xsd:complexType name="fromToType">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="faxno" type="faxNoType"/>
+    </xsd:complexType>
+
+    <!--pagesType-->
+    <xsd:complexType name="pagesType">
+        <xsd:attribute name="number" type="xsd:integer"/>
+        <xsd:attribute name="format" type="formatType"/>
+        <xsd:attribute name="color" type="xsd:string"/>
+    </xsd:complexType>
+
+    <!--headerType-->
+    <xsd:complexType name="headerType">
+        <xsd:all><!--Beliebige Reihenfolge all verwenden-->
+            <xsd:element name="from" type="fromToType"/>
+            <xsd:element name="to" type="fromToType"/>
+            <xsd:element name="priority" type="priorityType"/>
+            <xsd:element name="pages" type="pagesType"/>
+        </xsd:all>
+    </xsd:complexType>
+
+    <!--txttimeType-->
+    <xsd:simpleType name="txtTimeType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value=".*"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!-- txtDateType -->
+    <xsd:simpleType name="txtDateType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value=".*"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!--checksumType-->
+    <xsd:simpleType name="checksumType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value=".*"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <!--checkinfoType-->
+    <xsd:complexType name="checkinfoType">
+        <xsd:attribute name="checksum" type="checksumType"/>
+        <xsd:attribute name="txtime" type="txtTimeType"/>
+        <xsd:attribute name="txtdate" type="txtDateType"/>
+    </xsd:complexType>
+
+    <!--faxType -->
+    <xsd:complexType name="faxType">
+        <xsd:sequence>
+            <xsd:element name="header" type="headerType"/>
+            <xsd:element name="body" type="xsd:string"/>
+            <xsd:element name="checkinfo" type="checkinfoType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <!--Root Element-->
+    <xsd:element name="fax" type="faxType"/>
+
+
+
+</xsd:schema>

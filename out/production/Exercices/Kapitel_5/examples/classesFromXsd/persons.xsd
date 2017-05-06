@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="http://www.bfh.ch/persons/" targetNamespace="http://www.bfh.ch/persons/">
+	
+	<!-- Root Eement -->
+	<xsd:element name="persons" type="PersonsType"/>
+
+	<xsd:complexType name="PersonsType">
+		<xsd:sequence>
+			<xsd:element name="person" type="PersonType" maxOccurs="unbounded"
+				minOccurs="1" />
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name="PersonType">
+		<xsd:sequence>
+			<xsd:element name="first_name" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

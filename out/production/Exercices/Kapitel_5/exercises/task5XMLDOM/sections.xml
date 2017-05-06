@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MenuHelp>
+  <Description>This is an Online help</Description>
+  <Sections>
+    <Section name="Application Help" url="" number="1">
+      <Section name="Section One Help" url="" number="1.1">
+        <Section name="Section One SubHelp 1" url="" number="1.1.1" />
+        <Section name="Section One SubHelp 2" url="" number="1.1.2">
+          <Section name="Section One SubSubHelp" url="" number="1.1.2.1">
+            <Section name="SubSubSubHelp " url="" number="1.1.2.1.1" />
+          </Section>
+        </Section>
+      </Section>
+      <Section name="Section Two Help" url="" number="1.2" >
+      <Section name="Section Two SubHelp 1" url="" number="1.2.1" />
+       </Section>
+      <Section name="Saved Search Help" url="" number="1.3" />
+      <Section name="Changes Help" url="" number="1.4" />
+    </Section>
+    <Section name="Login Help" url="" number="2">
+      <Section name="Login Sub Help" url="" number="2.1" />
+    </Section>
+  </Sections>
+</MenuHelp> 
