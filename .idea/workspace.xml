@@ -1,49 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="776bb8d6-5d36-41bb-ace7-d517da7d310e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Topic00_Recursion/exercises/task01/RecursionImplement.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/exercises/task2/MovieReader$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/exercises/task2/MovieReader.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_2/exercises/task1/FileAnalyzerFX.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_2/exercises/task1/FileAnalyzerFX.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_2/exercises/task3/BankDataInterface.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_2/exercises/task3/BankDataInterface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/examples/Loop.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/examples/Loop.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/examples/file/FileProg1.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/examples/file/FileProg1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/examples/file/FileProg3.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/examples/file/FileProg3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/examples/file/FileProg_fin1.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_3/examples/file/FileProg_fin1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_5/examples/DOMProcessing/XMLDomProcessing.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_5/examples/DOMProcessing/XMLDomProcessing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_5/exercises/task1University/UniMain.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_5/exercises/task1University/UniMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_5/exercises/task4Dom/XMLDomProcessing.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_5/exercises/task4Dom/XMLDomProcessing.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_5/exercises/task5XMLDOM/XMLDOM.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_5/exercises/task5XMLDOM/XMLDOM.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_7/examples/digitalClock/DigitalClock.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_7/examples/digitalClock/DigitalClock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_7/examples/digitalClock/Time.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_7/examples/digitalClock/Time.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_7/examples/i18/resourceBundle/PropertiesDemo.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_7/examples/i18/resourceBundle/PropertiesDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Kapitel_7/examples/stopwatchMVC/Timer.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Kapitel_7/examples/stopwatchMVC/Timer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Pruefung_1/ZZ_Aufgaben/Task4/Parser.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Pruefung_1/ZZ_Aufgaben/Task4/Parser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/Counter.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/Counter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/CounterWithLock.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/CounterWithLock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/FilePrinter.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/FilePrinter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/FilePrinterOrderedLocks.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/FilePrinterOrderedLocks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloAnyone.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloAnyone.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorld.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorld.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldAnonymous$1.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldAnonymous$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldInterruped.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldInterruped.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldLambda.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldLambda.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldMultiThread.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldMultiThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldThread.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/HelloWorldThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/SafeWorkerThreadApplication.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/SafeWorkerThreadApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/ScheduledThreadPool.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/ScheduledThreadPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/SingleThreadApplication.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/SingleThreadApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/SynchronizedCounter.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/SynchronizedCounter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/SynchronizedLists.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/SynchronizedLists.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/Task.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/Task.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/TaskThreadApplication$1.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/TaskThreadApplication$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/TaskThreadApplication.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/TaskThreadApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/WorkerThreadApplication.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/examples/WorkerThreadApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/exercises/Task01_MultiThreading/ThreadingTeasterMain.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/exercises/Task01_MultiThreading/ThreadingTeasterMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/exercises/Task02_BackgroundThreadsFX/SafeWorkerThreadApplication.class" afterPath="$PROJECT_DIR$/out/production/Exercices/Topic01_Threads/exercises/Task02_BackgroundThreadsFX/SafeWorkerThreadApplication.class" />
+    <list default="true" id="776bb8d6-5d36-41bb-ace7-d517da7d310e" name="Default" comment="new classes">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kapitel_3/exercises/task2/MovieReader.java" afterPath="$PROJECT_DIR$/src/Kapitel_3/exercises/task2/MovieReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Topic00_Recursion/exercises/task01/RecursionImplement.java" afterPath="$PROJECT_DIR$/src/Topic00_Recursion/exercises/task01/RecursionImplement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,111 +19,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BankAccount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/exercises/Task01_MultiThreading/BankAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-              <folding>
-                <element signature="e#210#211#0" expanded="false" />
-                <element signature="e#242#243#0" expanded="false" />
-                <element signature="e#279#280#0" expanded="false" />
-                <element signature="e#316#317#0" expanded="false" />
-                <element signature="e#416#417#0" expanded="false" />
-                <element signature="e#454#455#0" expanded="false" />
-                <element signature="e#769#770#0" expanded="false" />
-                <element signature="e#804#805#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadingTeasterMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/exercises/Task01_MultiThreading/ThreadingTeasterMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SafeWorkerThreadApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/exercises/Task02_BackgroundThreadsFX/SafeWorkerThreadApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-              <folding>
-                <element signature="e#522#523#0" expanded="false" />
-                <element signature="e#550#551#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kapitel_7/examples/stopwatchMVC/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkerThreadApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/examples/WorkerThreadApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kapitel_3/exercises/task2/MovieReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="113" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#3469#0" expanded="true" />
-                <marker date="1494085606111" expanded="false" signature="830:837" ph="&lt;~&gt;" />
-                <marker date="1494085606111" expanded="false" signature="1262:1278" ph="&lt;~&gt;" />
-                <marker date="1494085606111" expanded="false" signature="3026:3042" ph="&lt;~&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldAnonymous.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/examples/HelloWorldAnonymous.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RecursionImplement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Topic00_Recursion/exercises/task01/RecursionImplement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Kapitel_7/examples/stopwatchMVC/Timer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="106" column="26" lean-forward="false" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -266,8 +130,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
-    <option name="y" value="104" />
+    <option name="x" value="337" />
+    <option name="y" value="96" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -286,8 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -322,6 +184,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercices" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OP2_JAVA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task01" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,6 +273,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,27 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloWorldAnonymous">
-    <configuration default="false" name="SafeWorkerThreadApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Topic01_Threads.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Topic01_Threads.examples.SafeWorkerThreadApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Exercices" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.RecursionImplement">
     <configuration default="false" name="WorkerThreadApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -532,6 +394,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Topic01_Threads.examples.HelloWorldAnonymous" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Exercices" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RecursionImplement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Topic00_Recursion.exercises.task01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Topic00_Recursion.exercises.task01.RecursionImplement" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -932,19 +814,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SafeWorkerThreadApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.WorkerThreadApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ThreadingTeasterMain" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SafeWorkerThreadApplication (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.HelloWorldAnonymous" />
+      <item index="0" class="java.lang.String" itemvalue="Application.WorkerThreadApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ThreadingTeasterMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SafeWorkerThreadApplication (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.HelloWorldAnonymous" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RecursionImplement" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.HelloWorldAnonymous" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WorkerThreadApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SafeWorkerThreadApplication (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ThreadingTeasterMain" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SafeWorkerThreadApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RecursionImplement" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SafeWorkerThreadApplication (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ThreadingTeasterMain" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HelloWorldAnonymous" />
+        <item index="4" class="java.lang.String" itemvalue="Application.WorkerThreadApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -958,27 +840,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487791622241</updated>
-      <workItem from="1494085525684" duration="1394000" />
+      <workItem from="1494085525684" duration="1436000" />
+      <workItem from="1494182341108" duration="30000" />
+      <workItem from="1494265167180" duration="2408000" />
     </task>
+    <task id="LOCAL-00001" summary="new classes">
+      <created>1494100563639</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1494100563639</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1394000" />
+    <option name="totallyTimeSpent" value="3874000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="104" width="1936" height="1056" extended-state="0" />
+    <frame x="337" y="96" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29069766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23115578" sideWeight="0.50427353" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31501058" sideWeight="0.4957265" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31501058" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -988,9 +880,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2503864" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1037,6 +929,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1094,8 +990,20 @@
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Topic00_Recursion/exercises/task01/RecursionImplement.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Topic00_Recursion/exercises/task01/RecursionImplement.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="33" />
+      <option name="time" value="36" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1261,13 +1169,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kapitel_7/examples/stopwatchMVC/Stopwatch_blue.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-521">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kapitel_7/examples/clickMe/application.css">
@@ -1285,13 +1193,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kapitel_7/exercises/task4Internationalized/international.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kapitel_2/examples/lineNumberer/LineNumberer.java">
@@ -1309,13 +1217,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kapitel_7/examples/clickMe/View.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kapitel_7/exercises/task4Internationalized/Main.java">
@@ -1390,48 +1298,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/exercises/Task01_MultiThreading/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/Kapitel_7/examples/stopwatchMVC/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding>
-            <element signature="e#210#211#0" expanded="false" />
-            <element signature="e#242#243#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-            <element signature="e#316#317#0" expanded="false" />
-            <element signature="e#416#417#0" expanded="false" />
-            <element signature="e#454#455#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#804#805#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1666">
+          <caret line="106" column="26" lean-forward="false" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/exercises/Task01_MultiThreading/ThreadingTeasterMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="-35">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/exercises/Task02_BackgroundThreadsFX/SafeWorkerThreadApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="45" column="23" lean-forward="false" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
-          <folding>
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kapitel_7/examples/stopwatchMVC/Timer.java">
+    <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/exercises/Task01_MultiThreading/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="106" column="26" lean-forward="false" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
+        <state relative-caret-position="560">
+          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1447,14 +1341,14 @@
     <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/examples/WorkerThreadApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kapitel_3/exercises/task2/MovieReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
+        <state relative-caret-position="560">
           <caret line="113" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
             <element signature="e#0#3469#0" expanded="true" />
@@ -1468,16 +1362,19 @@
     <entry file="file://$PROJECT_DIR$/src/Topic01_Threads/examples/HelloWorldAnonymous.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Topic00_Recursion/exercises/task01/RecursionImplement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
