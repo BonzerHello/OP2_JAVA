@@ -1,59 +1,63 @@
 package Topic01_Threads.exercises.Task01_MultiThreading;
 
 import java.util.Random;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
-/**
- * Created by tilli_000 on 02.05.2017.
- */
 public class BankAccount {
 
+	private static Lock lock = new ReentrantLock();
 
-    private int balance;
+	private static final int INITIAL_BALANCE = 100;
+	private static Random random = new Random();
 
-    public BankAccount(){
-        this.balance = 0;
-    }
+	private int balance;
 
-    public BankAccount(int amount){
-        this.balance = amount;
-    }
+	public BankAccount() {
+		this.balance = INITIAL_BALANCE;
+	}
 
+	public void deposit(int amount) {
+		this.balance = this.balance + amount;
+	}
 
-    /**
-     * Geld einbezahlen
-     * @param amount
-     */
-    public void deposit(int amount){
-        this.balance += amount;
-    }
+	public void withdraw(int amount) {
+		if (amount > this.balance) {
+			throw new IllegalArgumentException();
+		}
+		this.balance = this.balance - amount;
+	}
 
-    /**
-     * Geld abheben
-     * @param amount
-     */
-    public void withdraw(int amount) throws Exception{
-        if(amount>this.balance){
-            throw new Exception("Amount bigger than Balance");
-        }
-        else{
-            this.balance -=amount;
-        }
-    }
+	public void randomTransfer1(BankAccount other) {
+		int amount = random.nextInt(this.balance + 1);
+		this.withdraw(amount);
+		other.deposit(amount);
+	}
 
+	public synchronized void randomTransfer2(BankAccount other) {
+		int amount = random.nextInt(this.balance + 1);
+		this.withdraw(amount);
+		other.deposit(amount);
+	}
 
-    public int getBalance(){
-        return this.balance;
-    }
+	public void randomTransfer3(BankAccount other) {
+		synchronized (this) {
+			int amount = random.nextInt(this.balance + 1);
+			this.withdraw(amount);
+			other.deposit(amount);
+		}
+	}
 
+	public void randomTransfer4(BankAccount other) {
+		lock.lock();
+		int amount = random.nextInt(this.balance + 1);
+		this.withdraw(amount);
+		other.deposit(amount);
+		lock.unlock();
+	}
 
-    public void randomTransfer(BankAccount other) throws Exception{
-        int otherAccountBalance = other.getBalance();
-        Random random = new Random();
-        int randomAmmount = random.nextInt(otherAccountBalance);
-        if(randomAmmount >= 0 && randomAmmount <=this.balance);{
-            other.withdraw(randomAmmount);
-            deposit(randomAmmount);
-        }
+	public int getBalance() {
+		return this.balance;
+	}
 
-    }
 }
