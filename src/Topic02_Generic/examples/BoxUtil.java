@@ -26,9 +26,9 @@ public class BoxUtil {
 		BoxUtil.compare1(box1, box3); // OK
 
 		BoxUtil.compare2(box1, box2); // OK
-		BoxUtil.compare2(box1, box3); // Not OK
+		//BoxUtil.compare2(box1, box3); // Not OK
 		
 		Couple<String> c1 = BoxUtil.couple(box1, box2); // OK
-		Couple<String> c2 = BoxUtil.couple(box1, box3); // Not OK
+		//Couple<String> c2 = BoxUtil.couple(box1, box3); // Not OK
 	}
 }

@@ -1,4 +1,4 @@
-package Topic02_Generic.examples;
+/*package Topic02_Generic.examples;
 
 import topic02.Country.France;
 
@@ -26,4 +26,4 @@ public class Passport<T extends Country> {
 		// the following line produces a compilation error
 		Passport<String> pp = new Passport<>("France");
 	}
-}
+}*/
